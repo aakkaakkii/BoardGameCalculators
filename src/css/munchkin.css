@@ -1,0 +1,37 @@
+.my_button{
+    width: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+    background-color: #65230B;
+    border-color: #65230B;
+}
+
+.my_button:hover{
+    color: white;
+
+    background-color: #9D3A0E;
+    border-color: #9D3A0E;
+}
+
+.my_score{
+    width: 150px;
+    background: white;
+    font-size: 40px;
+}
+
+.my_title{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.main_container{
+    margin-top: calc(50vh - 100px);
+}
+
+body{
+    background: url("../../assets/images/munchkin_bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
